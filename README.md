@@ -1,4 +1,5 @@
 # Ng5
+Wesleys-MacBook-Pro:ng5 wesleyparr$ ng new ng5 --style=scss --routing
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
