@@ -1,9 +1,14 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<ul>
-  <li><a routerLink="">Home</a></li>
-  <li><a routerLink="about/48">About</a></li>
-</ul>  
-
-<!-- <app-home></app-home> -->
-
-<router-outlet></router-outlet>
+<header>
+  <div class="container">
+    <a hre='#' class="logo">CoolApp</a>
+    <nav>
+      <ul>
+        <li><a href='#' routerlink="/">Home</a></li>
+        <li><a href='list' routerlink="/list">List</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

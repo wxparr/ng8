@@ -1,40 +1,26 @@
-.container {
-    display: grid;
-    grid-template-columns: 50% auto;
+span {
+  font-weight: bold;
+  background: lightgray;
+  padding: 0.3em 0.8em;
+  cursor: pointer;
 }
 
-.col {
-    padding: .4em 1.3em;
-}
+.play-container {
+  padding: 3em;
+  border: 1px solid lightgray;
+  margin-bottom: 1em;
 
-.color-dark {
-    background: #2885C4;
-}
-
-.color-light {
-    background: #57B3F1;
-}
-
-input.txt {
-    border: 0;
+  input {
     padding: 1em;
-    width: 80%;
     margin-bottom: 2em;
+  }
 }
 
-input.btn {
-    border: 0;
-    display: block;
-    padding: 1em 3em;
-    background: #A5F883;
-    color: #003A61;
-    margin-bottom: 1em;
-    cursor: pointer;
+.active {
+  background-color: yellow;
+  border: 4px solid black;
 }
 
-.life-container {
-    background: #3FA0E1;
-    padding: .5em;
-    font-weight: bold;
-    cursor: pointer;
+.notactive {
+  background-color: lightgray;
 }
